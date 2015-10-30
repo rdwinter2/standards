@@ -9,7 +9,7 @@ write publicly.
 ## Mechanics
 
 1. Use the license approved by Flow
-   - [MIT](https://raw.githubusercontent.com/flow/standards/master/standards/LICENSE)
+   - [MIT](https://raw.githubusercontent.com/flowcommerce/standards/master/standards/LICENSE)
 
 2. Make the project public in GitHub
 
@@ -55,7 +55,7 @@ Open source projects require active promotion to gain traction with the communit
 
       2. If you'd like Flow to officially adopt another license -
          start by chatting with the
-         [Maintainers](https://raw.githubusercontent.com/flow/standards/master/standards/MAINTAINERS)
+         [Maintainers](https://raw.githubusercontent.com/flowcommerce/standards/master/standards/MAINTAINERS)
          who can help brainstorm pros/cons and can pull in the right
          partners in legal to evaluate the license.
 
@@ -77,7 +77,7 @@ Open source projects require active promotion to gain traction with the communit
 
     Each project should have at least one maintainer. A number of
     projects at Flow have adopted a standard contribution process -
-    see https://github.com/flow/standards/blob/master/CONTRIBUTIONS.md
+    see https://github.com/flowcommerce/standards/blob/master/CONTRIBUTIONS.md
     for an example.
 
   - Do we want to fork our projects and have public and private versions?
