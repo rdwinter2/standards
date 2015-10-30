@@ -8,8 +8,8 @@ write publicly.
 
 ## Mechanics
 
-1. Use a license approved by Flow
-   - [MIT (Preferred)](https://raw.githubusercontent.com/flow/standards/master/standards/LICENSE)
+1. Use the license approved by Flow
+   - [MIT](https://raw.githubusercontent.com/flow/standards/master/standards/LICENSE)
 
 2. Make the project public in GitHub
 
