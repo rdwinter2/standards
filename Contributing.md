@@ -156,13 +156,13 @@ Code Reviews
 [Document Changes](#document-changes)  
 
 ## Shared Repositories
-*This includes all shared libraries (i.e. lib-play, lib-postgresql)*
+*This includes all shared libraries (i.e. lib-play, lib-postgresql) or project that is used by two or more other projects at Flow*
 - A Pull Request is required
 - At least one (1) "Looks Good To Me (LGTM)" comment is required before merging to master branch
 
 ## Individual Repositories
 - A Pull Request is required so that a notification is sent to the Slack #pullrequests channel for awareness
-- Pull Request may be merged without additional review and at authors convenience
+- Pull Request may be merged without additional review and at author's convenience
 
 ## Document Changes
 Examples of documenting changes made in a branch/submitted for PR are
