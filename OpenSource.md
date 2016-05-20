@@ -32,7 +32,7 @@ public.
 
 Open source projects require active promotion to gain traction with the community.
 
-  - Post about your project to tech.flow.com (ask evangelist for help)
+  - Post about your project to [tech.flow.io](https://tech.flow.io) (ask evangelist for help)
   - Tweet about your project
   - Create a talk that explores your project and deliver it at meetups, conferences, etc.
   - Create and comment on issues
