@@ -2,7 +2,7 @@
 
 ## Should I use a licence in my repo?
 
-For private repositories, no license is required. For public reposiories, please use the MIT license as outlined in the [Open Source FAQ](https://github.com/flowcommerce/standards/blob/master/OpenSource.md)
+For private repositories, no license is required. For public reposiories, please use the MIT license as outlined in the [Open Source FAQ](https://github.com/flowcommerce/standards/OpenSource.md)
 
 ## Where should I document my API?
 

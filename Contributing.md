@@ -43,4 +43,4 @@ The only hard rules we have:
 
 ## Making changes to standards
 
-Changes to the standards repository follow our standard [contribution guidelines](blob/master/Contributing.md). The only active contributor to this project is Michael Bryzek.
+Changes to the standards repository follow our standard [contribution guidelines](Contributing.md). The only active contributor to this project is Michael Bryzek.

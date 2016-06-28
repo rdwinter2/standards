@@ -72,7 +72,7 @@ Docker artifacts must be produced as they are used in both the integration and p
 
 ### Development
 
-Source code should be written to be simple for an external reader to understand and correct, as guaranteed by the automated tests, and instrumented for easy debugging and monitoring. Contributions must follow the [Contribution Guidelines](blob/master/Contributing.md)
+Source code should be written to be simple for an external reader to understand and correct, as guaranteed by the automated tests, and instrumented for easy debugging and monitoring. Contributions must follow the [Contribution Guidelines](Contributing.md)
 
   - [Source code management - Non Top Secret](https://github.com/flowcommerce)
   - [Source code management - Top Secret](https://github.com/flowvault)
