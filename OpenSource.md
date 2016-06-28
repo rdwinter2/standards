@@ -53,11 +53,8 @@ Open source projects require active promotion to gain traction with the communit
       1. You can just release your project in your personal git hub
          account and use the license you'd like.
 
-      2. If you'd like Flow to officially adopt another license -
-         start by chatting with the
-         [Maintainers](https://github.com/flowcommerce/standards/blob/master/MAINTAINERS)
-         who can help brainstorm pros/cons and can pull in the right
-         partners in legal to evaluate the license.
+      2. If you'd like Flow to officially adopt another license - open
+         a pull request.
 
   - The MIT license doesn't address the fact that someone could fork
     our projects and completely change them. Should we make

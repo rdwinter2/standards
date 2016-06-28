@@ -26,7 +26,27 @@ We pursue several practices to ensure our SDLC achieves its goals of providing v
     - incremental rollout - by rolling out application changes to production incrementally, and verifying that they work, we minimize the impact of a problem before it affects all of our users.
     
     - monitoring and alerting - by instrumenting our applications - via logging and external monitoring services - we can capture our assumptions and receive notification on variance to minimize customer impact.
-   
+
+    - secure by design - We consider security throughout the entire software development life cycle. For example, we deny access by default: That is, something must be true in order for authorization to be granted.
+
+### The Open Source Way
+
+We are strong proponents of open source software, including the overall process of developing open source software. The Open Source Way is a framework we use to help us answer many questions about software design, deferring to how the open source community works.
+
+Examples:
+
+  - *How much documentation do we write?*
+  
+    Let's look at our favorite open source projects and see how their documentation looks. One example we like is the [react project](https://facebook.github.io/react/)
+
+  - *What level of testing do we use?*
+
+    Let's look at our favorite open source projects and see how their testing looks. One example we like is the [play framework](https://www.playframework.com/documentation)
+
+  - *What type of API should I build?*
+
+    Let's look at our favorite open source projects and look at their APIs. One example we like is [Stripe](https://stripe.com/docs/api)
+
 ## Application Development at Flow
 
 ### Design
@@ -48,19 +68,14 @@ To simplify local integration environments, and manage dependencies between appl
   - Unique port allocations, simplifying configuration for local integration environments
   - Declared dependency which informs which other applications, including databases, need to be running and healthy for a given application to work
 
-Docker artifacts must be produced as these artifacts are used in both the integration and production environments. Docker artifacts are built of the master branch of each repository. Docker artifacts are stored and managed by [Docker Hub](http://hub.docker.com).
+Docker artifacts must be produced as they are used in both the integration and production environments. Docker artifacts are built from the master branch of each repository. Docker artifacts are stored and managed by [Docker Hub](http://hub.docker.com).
 
 ### Development
 
-Source code should be written to be simple for an external reader to understand and correct, as guaranteed by the automated tests, and instrumented for easy debugging and monitoring.
+Source code should be written to be simple for an external reader to understand and correct, as guaranteed by the automated tests, and instrumented for easy debugging and monitoring. Contributions must follow the [Contribution Guidelines](blob/master/Contributing.md)
 
-  - [Source code management](https://github.com/flowcommerce)
-  - [Contributions](https://github.com/flowcommerce/standards/Contributions.md)
-  
-For top secret applications:
-
-  - [Source code management](https://github.com/flowvault)
-  - [Contributions](https://github.com/flowvault/standards/Contributions.md)
+  - [Source code management - Non Top Secret](https://github.com/flowcommerce)
+  - [Source code management - Top Secret](https://github.com/flowvault)
   
 We prefer our applications to be developed with similar style, making it easy for a developer to move from one project to another. Thus you will see very similar style of development across all Play/Scala applications at Flow and across all NodeJs applications.
 
@@ -72,7 +87,7 @@ Note: local development activities are supported by a command line interface nam
 
 We write automated tests at Flow, and depend on them for the correctness of our applications. We use the testing frameworks best suited to our application environments.
 
-Every repository should have automated continuous integration tests enabled with [Travis](http://travis-ci.com/flowcommerce). Integration tests should run on Pull Requests and Commits, and tests should pass prior to merging Pull Requests.
+Every repository should have automated continuous integration tests enabled with [Travis](https://travis-ci.com/flowcommerce). Integration tests should run on Pull Requests and Commits, and tests should pass prior to merging Pull Requests.
 
 
 ### Dependendency Management
@@ -121,11 +136,3 @@ We encourage free and informal communication across the entire Tech org. Standar
   - Email (tech@flow.io)
   - Monday morning company wide standup
   - Friday afternoon tech Show and Tell
-
-### Changes to the SDLC
-
-Changes to the SDLC follow our standard [contribution guidelines](https://github.com/flowcommerce/standards/Contributions.md). The only active contributor to this project at the moment is Michael Bryzek.
-
-
-
-
