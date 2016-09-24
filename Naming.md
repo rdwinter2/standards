@@ -45,4 +45,7 @@ generate a new prefix, pls note here via pull request for discussion.
     F70 - Prefix for all Flow tracking numbers. Comes from "FLO"
 
     F96 - Prefix for all unique payment card tokens. Comes from "Flow
-    Payment Card" or FPC
+    Payment Card" (FPC)
+
+    F17 - Prefix for all one time payment card nonces. Comes from "Flow
+    Nonce" (FN)
