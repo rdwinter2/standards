@@ -16,14 +16,15 @@ to meet the Flow Commerce API SLA.
 
 The following definitions shall apply to the Flow Commerce API SLA.
 
-  - Flow Commerce Covered Services include the services available at
-    https://api.flow.io
+  - Flow Commerce Covered Modules are Localization, Pricing, Landed
+    Cost, Payment or Logistics as described at https://docs.flow.io
+    and available at https://api.flow.io
 
-  - Downtime means, for a service, that there is more than one minute
-    of sustained unavailability.
+  - Downtime means, there is more than one minute of sustained
+    unavailability of all of the APIs provided by a Module.
 
   - Sustained unavailability is defined as all healthcheck requests to
-    the service within a one minute period have failed.
+    a Module within a one minute period have failed.
 
   - Monthly Uptime Percentage means total number of minutes in a
     calendar month minus the number of minutes of Downtime suffered in
