@@ -20,10 +20,10 @@ The following definitions shall apply to the Flow Commerce API SLA.
     https://api.flow.io
 
   - Downtime means, for a service, that there is more than one minute
-    of sustained unavailibilty.
+    of sustained unavailability.
 
-  - Sustained unavailibilty is defined as all healthcheck requests to the
-    service within a one minute period have failed.
+  - Sustained unavailability is defined as all healthcheck requests to
+    the service within a one minute period have failed.
 
   - Monthly Uptime Percentage means total number of minutes in a
     calendar month minus the number of minutes of Downtime suffered in
@@ -37,7 +37,7 @@ The following definitions shall apply to the Flow Commerce API SLA.
     Subscription Fee that will be eligible as a credit to future
     Monthly Subscription Fees.
 
-  - Service Credit means the following:<br>
+  - Service Credit means the following:
 
     | Monthly Uptime Percentage | Subscription Credit Percentage |
     |---------------------------|--------------------------------|
@@ -57,6 +57,10 @@ The following definitions shall apply to the Flow Commerce API SLA.
     Credits to be issued by Flow Commerce to Customer for all Downtime
     that occurs in a single calendar month shall not exceed 50% of
     that month's subscription fee.
+
+  - Measurement. Flow Commerce API SLA is as measured by NewRelic
+    availability report. Flow Commerce reserves the right to change,
+    without notice, the measurement party.
 
   - Flow Commerce API SLA Exclusions. The Flow Commerce API SLA does
     not apply to any services that expressly exclude this Flow
