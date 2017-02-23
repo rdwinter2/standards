@@ -54,5 +54,7 @@ generate a new prefix, please note here via pull request for discussion.
           with client cookies. F60 comes from "Cookie". Example cookie name
           would be "_f60_session"
 
+    F64 - Prefix for orders. Comes from "Flow CHeckout"
+
     F17 - Prefix for all one time payment card nonces. Comes from "Flow
     Nonce" (FN)
