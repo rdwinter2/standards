@@ -37,8 +37,8 @@ using the old pager code alphabet:
     Z = 2
 
 
-By convention, our prefixes are 3 charcters - and unique. Once you
-generate a new prefix, pls note here via pull request for discussion.
+By convention, our prefixes are 3 characters - and unique. Once you
+generate a new prefix, please note here via pull request for discussion.
 
 ## Flow Prefixes
 
