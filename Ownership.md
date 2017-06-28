@@ -8,7 +8,7 @@ strong Software Ownership.
 To help us understand what it means for software to be owned, it can
 be helpful to enumerate a few litmus tests.
 
-  - Every single line of code is understand and intentional. If
+  - Every single line of code is understood and intentional. If
     another team member asks about a particular line of code, the
     owners can explain why they wrote it, what use case they were
     solving and what the pros/cons are that they considered.
@@ -18,7 +18,7 @@ be helpful to enumerate a few litmus tests.
     does happen, we treat it is a critical Production issue -
     immediately resolving the error condition and then refactoring our
     software to prevent it from occurring in the future. This is hard;
-    but by adopting this approach from the being we can help avoid
+    but by adopting this approach from the beginning we can help avoid
     both errors in production as well as long term 'technical debt'
     from building.
 
@@ -30,18 +30,18 @@ be helpful to enumerate a few litmus tests.
     be simple and safe. Should a natural use case arise for a piece of
     software, and we find ourselves reticent to implement - this is a
     sign that our software has missed its mark and should be
-    refactored to support natural extension;
+    refactored to support natural extension.
 
 ## Kaizen - learning from failure
 
 When a failure occurs and after we have restored stability, we take
 the time to:
 
-  - identify other parts of the system with similar characteristics,
+  - Identify other parts of the system with similar characteristics,
     refactoring all software matching the failure pattern before that
     software can fail in the same way.
 
-  - internalizing the core learnings and incorporating those learnings
+  - Internalizing the core learnings and incorporating those learnings
     into future software development.
 
 ## Production support

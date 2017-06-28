@@ -24,7 +24,8 @@ public.
   - Discuss your project with 1-2 team members - it's helpful to talk to both people familiar with your work and also people from other teams.
   - Update your documentation - and specifically your README - to be as clear as possible. Keep in mind that people will be learning about your project with no background. We recommend taking a look at the documentation for other open source projects you love as a template.
   - Clean up your config - specifically want to confirm there are no specifics of Flow's environment
-  - Review the project and its history to make sure there are no usernames, passwords, credetials, etc. If necessary, create a new repo.
+  - Review the project to make sure there are no usernames, passwords, credentials, etc. If necessary, create a new repo.
+  - Squash SCM commit history to eliminate risk of sensitive data.
   - Ask a friend or two to install / use your project just by reading the documentation.
   - If you'd like broader review of your project - send a note to tech-rfc or ask in chat.
 

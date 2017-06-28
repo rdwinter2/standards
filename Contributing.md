@@ -22,7 +22,7 @@ The only hard rules we have:
       - we require feedback from at least 3 of the dependent owners
         prior to merging (or all of the dependent owners if there are
         fewer than 3). The goals here are to a: minimize surprise by
-        people dependent on a chance; b: minimize the number of
+        people dependent on a change; b: minimize the number of
         changes in both short term and long term in shared artifacts
         as the cost long term of mistakes here is high.
 
