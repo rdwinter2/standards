@@ -17,7 +17,7 @@ We pursue several practices to ensure our SDLC achieves its goals of providing v
   
     - isolation - truly ensuring that one change cannot impact another. For example, our focus on API design and micro service architecture on the backend is one technique we use to create isolation.
     
-    - continuous delivery - by releasing small changes continuously to our production environment, we minimze the impact of any one change and significantly increase time to resolution.
+    - continuous delivery - by releasing small changes continuously to our production environment, we minimize the impact of any one change and significantly decrease time to resolution.
     
     - automation - by writing software to manage and implement our processes - including testing, patching and deployment - we focus on capturing our assumptions during the development process and building leverage to ensure our assumptions remain valid over time.
     
