@@ -49,6 +49,10 @@ generate a new prefix, please note here via pull request for discussion.
 
     F51 - Prefix for all Flow session identifiers. Comes from "Session Id"
 
+    F52 - Prefix for all Flow session visitor identifiers. Next number after session id
+
+    F53 - Prefix for all Flow session visit identifiers. Next number after visitor id
+
     F60 - Prefix for all cookies set by flow. Typical cookie will be
           "_f60_xxx" - leading underscore to minimize chance of collision
           with client cookies. F60 comes from "Cookie". Example cookie name
