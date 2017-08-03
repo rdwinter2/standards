@@ -60,3 +60,5 @@ generate a new prefix, please note here via pull request for discussion.
 
     F17 - Prefix for all one time payment card nonces. Comes from "Flow
     Nonce" (FN)
+
+    F12 - Prefix for payment redirect tokens, comes from "Flow Redirect" (FR)
