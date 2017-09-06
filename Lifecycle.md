@@ -53,22 +53,18 @@ Examples:
 
 Design of the system starts as soon as we begin discussing use cases and requirements. While the design stage starts early in our process, it is not concluded until the application is successfully completed - simple, stable, tested, in production, and meeting the needs of users.
 
-APIs designed for our customers must also meet the requirements of the 'api' repository - https://github.com/flowcommerce/api - and designed using [apidoc](apidoc.me/flow)
+APIs designed for our customers must also meet the requirements of the 'api' repository - https://github.com/flowcommerce/api - and designed using [API Builder](https://app.apibuilder.io/flow)
 
 ### Environments
 
-Flow provides three environments:
-
-1. Local development environment
-2. Local integration environment, supported by [workstation](https://github.com/flowcommerce/workstation)
-3. Production, supported by [delta](https://delta.flow.io)
+Flow provides one production environment, supported by [delta](https://delta.flow.io). Within the production environment, users can create an unlimited number of organizations with environment `sandbox` that allow for verification (these environments do not incur costs from third parties).
 
 To simplify local integration environments, and manage dependencies between applications, each application must be created in [registry](https://github.com/flowcommerce/registry). Registry provides the following key features:
 
   - Unique port allocations, simplifying configuration for local integration environments
-  - Declared dependency which informs which other applications, including databases, need to be running and healthy for a given application to work
+  - Declared dependencies to inform which other applications, including databases, need to be running and healthy for a given application to work
 
-Docker artifacts must be produced as they are used in both the integration and production environments. Docker artifacts are built from the master branch of each repository. Docker artifacts are stored and managed by [Docker Hub](http://hub.docker.com).
+Docker artifacts must be produced as they are used in both the integration and production environments. Docker artifacts are built from the master branch of each repository using Travis CI jobs (and managed by delta). Docker artifacts are stored and managed by [Docker Hub](http://hub.docker.com).
 
 ### Development
 
@@ -94,7 +90,7 @@ Every repository should have automated continuous integration tests enabled with
 
 We strive to minimize the number of external dependencies. When we introduce dependencies, we are responsible for reviewing the code as if it is our own and we remain accountable for its performance and security at Flow.
 
-To consume third party APIs - our preference is to document the API using [apidoc](apidoc.me/flow) which then ensures we can consume the third party API using the standard apidoc clients, as opposed to introducing new dependencies.
+To consume third party APIs - our preference is to document the API using [API Builder](https://app.apibuilder.io/flow) which then ensures we can consume the third party API using the standard [API Builder](https://app.apibuilder.io/flow) clients, as opposed to introducing new dependencies.
 
 To track third party dependencies, for Scala based applications, we use [dependency](dependency.flow.io) and for Node applications, we use npm outdated. We commit to "OCD Fridays" where we spend the morning every week upgrading to the latest versions of all libraries. This practice of continuous upgrade aligns with our philosophy of continuous delivery.
 
