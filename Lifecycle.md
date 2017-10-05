@@ -92,7 +92,7 @@ We strive to minimize the number of external dependencies. When we introduce dep
 
 To consume third party APIs - our preference is to document the API using [API Builder](https://app.apibuilder.io/flow) which then ensures we can consume the third party API using the standard [API Builder](https://app.apibuilder.io/flow) clients, as opposed to introducing new dependencies.
 
-To track third party dependencies, for Scala based applications, we use [dependency](dependency.flow.io) and for Node applications, we use npm outdated. We commit to "OCD Fridays" where we spend the morning every week upgrading to the latest versions of all libraries. This practice of continuous upgrade aligns with our philosophy of continuous delivery.
+To track third party dependencies, for Scala based applications, we use [dependency](dependency.flow.io) and for Node applications, we use npm outdated. We commit to a weekly "Dependence Day" where we spend a morning each week upgrading to the latest versions of all libraries. This practice of continuous upgrade aligns with our philosophy of continuous delivery.
 
 ### Code Review
 
