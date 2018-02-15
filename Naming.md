@@ -62,3 +62,5 @@ generate a new prefix, please note here via pull request for discussion.
     Nonce" (FN)
 
     F12 - Prefix for payment redirect tokens, comes from "Flow Redirect" (FR)
+
+    F61 - Prefix for Flow ciphers, comes "Flow Cipher" (FCI)
