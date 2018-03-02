@@ -39,6 +39,8 @@ The only hard rules we have:
 
   - If a repository is Top Secret, a change requires at least one LGTM
     from at least one other employee with Top Secret clearance.
+    
+  - If you really need to add a hack, please review [hack guidelines](Hacks.md)
 
 
 ## Making changes to standards
