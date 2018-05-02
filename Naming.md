@@ -63,4 +63,6 @@ generate a new prefix, please note here via pull request for discussion.
 
     F12 - Prefix for payment redirect tokens, comes from "Flow Redirect" (FR)
 
-    F61 - Prefix for Flow ciphers, comes "Flow Cipher" (FCI)
+    F61 - Prefix for Flow ciphers, comes from "Flow Cipher" (FCI)
+
+    F10 - Prefix for all Flow consumer identifiers, comes from "Flow Identifier" (FID)
