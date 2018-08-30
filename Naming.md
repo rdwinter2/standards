@@ -42,10 +42,12 @@ generate a new prefix, please note here via pull request for discussion.
 
 ## Flow Prefixes
 
-    F96 - Prefix for all unique payment card tokens. Comes from "Flow
-    Payment Card" (FPC)
+    F10 - Prefix for all Flow consumer identifiers, comes from "Flow Identifier" (FID)
 
-    F70 - Prefix for all Flow tracking numbers. Comes from "FLO"
+    F12 - Prefix for payment redirect tokens, comes from "Flow Redirect" (FR)
+
+    F17 - Prefix for all one time payment card nonces. Comes from "Flow
+          Nonce" (FN)
 
     F51 - Prefix for all Flow session identifiers. Comes from "Session Id"
 
@@ -58,11 +60,10 @@ generate a new prefix, please note here via pull request for discussion.
           with client cookies. F60 comes from "Cookie". Example cookie name
           would be "_f60_session"
 
-    F17 - Prefix for all one time payment card nonces. Comes from "Flow
-    Nonce" (FN)
-
-    F12 - Prefix for payment redirect tokens, comes from "Flow Redirect" (FR)
-
     F61 - Prefix for Flow ciphers, comes from "Flow Cipher" (FCI)
 
-    F10 - Prefix for all Flow consumer identifiers, comes from "Flow Identifier" (FID)
+    F70 - Prefix for all Flow tracking numbers. Comes from "FLO"
+
+    F96 - Prefix for all unique payment card tokens. Comes from "Flow
+          Payment Card" (FPC)
+
