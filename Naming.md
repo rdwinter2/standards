@@ -62,6 +62,8 @@ generate a new prefix, please note here via pull request for discussion.
 
     F61 - Prefix for Flow ciphers, comes from "Flow Cipher" (FCI)
 
+    F67 - Prefix for all Flow checkout tokens. Comes from "Checkout Token"
+
     F70 - Prefix for all Flow tracking numbers. Comes from "FLO"
 
     F96 - Prefix for all unique payment card tokens. Comes from "Flow
